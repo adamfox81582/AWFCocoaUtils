@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		982D2A34183F0E2C002C8F9C /* UIViewController+AWFTransparent.m in Sources */ = {isa = PBXBuildFile; fileRef = 982D2A33183F0E2C002C8F9C /* UIViewController+AWFTransparent.m */; };
+		982D2A35183F0E2C002C8F9C /* UIViewController+AWFTransparent.m in Sources */ = {isa = PBXBuildFile; fileRef = 982D2A33183F0E2C002C8F9C /* UIViewController+AWFTransparent.m */; };
 		988E3E26183D4BDA00257846 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988E3E25183D4BDA00257846 /* Foundation.framework */; };
 		988E3E34183D4BDA00257846 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988E3E33183D4BDA00257846 /* XCTest.framework */; };
 		988E3E35183D4BDA00257846 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988E3E25183D4BDA00257846 /* Foundation.framework */; };
@@ -40,6 +42,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		982D2A32183F0E2C002C8F9C /* UIViewController+AWFTransparent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AWFTransparent.h"; sourceTree = "<group>"; };
+		982D2A33183F0E2C002C8F9C /* UIViewController+AWFTransparent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AWFTransparent.m"; sourceTree = "<group>"; };
 		988E3E22183D4BDA00257846 /* libAWFCocoaUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAWFCocoaUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		988E3E25183D4BDA00257846 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		988E3E32183D4BDA00257846 /* AWFCocoaUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWFCocoaUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,9 +79,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		982D2A31183F0DA0002C8F9C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				982D2A32183F0E2C002C8F9C /* UIViewController+AWFTransparent.h */,
+				982D2A33183F0E2C002C8F9C /* UIViewController+AWFTransparent.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		988E3E19183D4BDA00257846 = {
 			isa = PBXGroup;
 			children = (
+				982D2A31183F0DA0002C8F9C /* Categories */,
 				988E3E4B183D4EFB00257846 /* Classes */,
 				988E3E4C183D4F2700257846 /* Tests */,
 				988E3E28183D4BDA00257846 /* Supporting Files */,
@@ -212,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				982D2A34183F0E2C002C8F9C /* UIViewController+AWFTransparent.m in Sources */,
 				988E3E50183D523100257846 /* AWFPlistConfiguration.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +237,7 @@
 			files = (
 				988E3E57183D55BA00257846 /* AWFPlistConfigurationTests.m in Sources */,
 				988E3E51183D523100257846 /* AWFPlistConfiguration.m in Sources */,
+				982D2A35183F0E2C002C8F9C /* UIViewController+AWFTransparent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
