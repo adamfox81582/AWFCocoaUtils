@@ -26,8 +26,7 @@ static AWFPlistConfiguration *_defaultPlistConfiguration;
 
 - (id)initWithPlist:(NSString *) plistName inBundle:(NSBundle *)bundle
 {
-    self = [super init];
-    if (self)
+    if (self = [super init])
     {
         [self loadFromFile:plistName inBundle:bundle];
     }
