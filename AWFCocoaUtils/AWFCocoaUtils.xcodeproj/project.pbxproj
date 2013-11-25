@@ -11,6 +11,8 @@
 		982D2A35183F0E2C002C8F9C /* UIViewController+AWFTransparent.m in Sources */ = {isa = PBXBuildFile; fileRef = 982D2A33183F0E2C002C8F9C /* UIViewController+AWFTransparent.m */; };
 		982D2A471840766E002C8F9C /* AWFMySQLDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 982D2A461840766E002C8F9C /* AWFMySQLDateFormatter.m */; };
 		982D2A481840766E002C8F9C /* AWFMySQLDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 982D2A461840766E002C8F9C /* AWFMySQLDateFormatter.m */; };
+		982D2A4B1842982C002C8F9C /* NSManagedObject+AWFRevert.m in Sources */ = {isa = PBXBuildFile; fileRef = 982D2A4A1842982C002C8F9C /* NSManagedObject+AWFRevert.m */; };
+		982D2A4C1842982C002C8F9C /* NSManagedObject+AWFRevert.m in Sources */ = {isa = PBXBuildFile; fileRef = 982D2A4A1842982C002C8F9C /* NSManagedObject+AWFRevert.m */; };
 		988E3E26183D4BDA00257846 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988E3E25183D4BDA00257846 /* Foundation.framework */; };
 		988E3E34183D4BDA00257846 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988E3E33183D4BDA00257846 /* XCTest.framework */; };
 		988E3E35183D4BDA00257846 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988E3E25183D4BDA00257846 /* Foundation.framework */; };
@@ -19,6 +21,11 @@
 		988E3E50183D523100257846 /* AWFPlistConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 988E3E4F183D523100257846 /* AWFPlistConfiguration.m */; };
 		988E3E51183D523100257846 /* AWFPlistConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 988E3E4F183D523100257846 /* AWFPlistConfiguration.m */; };
 		988E3E57183D55BA00257846 /* AWFPlistConfigurationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 988E3E56183D55BA00257846 /* AWFPlistConfigurationTests.m */; };
+		98A611731842EB8600D2133F /* AWFCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A611721842EB8600D2133F /* AWFCoreDataStack.m */; };
+		98A611741842EB8600D2133F /* AWFCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A611721842EB8600D2133F /* AWFCoreDataStack.m */; };
+		98A611781842F57E00D2133F /* AWFTestModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98A611751842F57E00D2133F /* AWFTestModel.xcdatamodeld */; };
+		98A6117A1842F6F000D2133F /* AWFCoreDataStackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A611791842F6F000D2133F /* AWFCoreDataStackTests.m */; };
+		98A611811842F98E00D2133F /* AWFTestUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A611801842F98E00D2133F /* AWFTestUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,8 @@
 		982D2A33183F0E2C002C8F9C /* UIViewController+AWFTransparent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AWFTransparent.m"; sourceTree = "<group>"; };
 		982D2A451840766E002C8F9C /* AWFMySQLDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWFMySQLDateFormatter.h; sourceTree = "<group>"; };
 		982D2A461840766E002C8F9C /* AWFMySQLDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWFMySQLDateFormatter.m; sourceTree = "<group>"; };
+		982D2A491842982C002C8F9C /* NSManagedObject+AWFRevert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+AWFRevert.h"; sourceTree = "<group>"; };
+		982D2A4A1842982C002C8F9C /* NSManagedObject+AWFRevert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+AWFRevert.m"; sourceTree = "<group>"; };
 		988E3E22183D4BDA00257846 /* libAWFCocoaUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAWFCocoaUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		988E3E25183D4BDA00257846 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		988E3E32183D4BDA00257846 /* AWFCocoaUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWFCocoaUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,6 +67,12 @@
 		988E3E4F183D523100257846 /* AWFPlistConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWFPlistConfiguration.m; sourceTree = "<group>"; };
 		988E3E54183D53C300257846 /* AWFCocoaUtilsTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AWFCocoaUtilsTests-Info.plist"; sourceTree = "<group>"; };
 		988E3E56183D55BA00257846 /* AWFPlistConfigurationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWFPlistConfigurationTests.m; sourceTree = "<group>"; };
+		98A611711842EB8600D2133F /* AWFCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWFCoreDataStack.h; sourceTree = "<group>"; };
+		98A611721842EB8600D2133F /* AWFCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWFCoreDataStack.m; sourceTree = "<group>"; };
+		98A611761842F57E00D2133F /* AWFTestModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AWFTestModel.xcdatamodel; sourceTree = "<group>"; };
+		98A611791842F6F000D2133F /* AWFCoreDataStackTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWFCoreDataStackTests.m; sourceTree = "<group>"; };
+		98A6117F1842F98E00D2133F /* AWFTestUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWFTestUser.h; sourceTree = "<group>"; };
+		98A611801842F98E00D2133F /* AWFTestUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWFTestUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +101,8 @@
 		982D2A31183F0DA0002C8F9C /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				982D2A491842982C002C8F9C /* NSManagedObject+AWFRevert.h */,
+				982D2A4A1842982C002C8F9C /* NSManagedObject+AWFRevert.m */,
 				982D2A32183F0E2C002C8F9C /* UIViewController+AWFTransparent.h */,
 				982D2A33183F0E2C002C8F9C /* UIViewController+AWFTransparent.m */,
 			);
@@ -135,6 +152,8 @@
 		988E3E4B183D4EFB00257846 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				98A611711842EB8600D2133F /* AWFCoreDataStack.h */,
+				98A611721842EB8600D2133F /* AWFCoreDataStack.m */,
 				982D2A451840766E002C8F9C /* AWFMySQLDateFormatter.h */,
 				982D2A461840766E002C8F9C /* AWFMySQLDateFormatter.m */,
 				988E3E4E183D523100257846 /* AWFPlistConfiguration.h */,
@@ -146,10 +165,22 @@
 		988E3E4C183D4F2700257846 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				98A611791842F6F000D2133F /* AWFCoreDataStackTests.m */,
 				988E3E56183D55BA00257846 /* AWFPlistConfigurationTests.m */,
 				988E3E54183D53C300257846 /* AWFCocoaUtilsTests-Info.plist */,
+				98A6117E1842F94900D2133F /* Core Data */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		98A6117E1842F94900D2133F /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				98A611751842F57E00D2133F /* AWFTestModel.xcdatamodeld */,
+				98A6117F1842F98E00D2133F /* AWFTestUser.h */,
+				98A611801842F98E00D2133F /* AWFTestUser.m */,
+			);
+			name = "Core Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +265,9 @@
 			files = (
 				982D2A34183F0E2C002C8F9C /* UIViewController+AWFTransparent.m in Sources */,
 				988E3E50183D523100257846 /* AWFPlistConfiguration.m in Sources */,
+				98A611731842EB8600D2133F /* AWFCoreDataStack.m in Sources */,
 				982D2A471840766E002C8F9C /* AWFMySQLDateFormatter.m in Sources */,
+				982D2A4B1842982C002C8F9C /* NSManagedObject+AWFRevert.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,9 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98A611811842F98E00D2133F /* AWFTestUser.m in Sources */,
+				98A6117A1842F6F000D2133F /* AWFCoreDataStackTests.m in Sources */,
 				988E3E57183D55BA00257846 /* AWFPlistConfigurationTests.m in Sources */,
 				988E3E51183D523100257846 /* AWFPlistConfiguration.m in Sources */,
+				98A611781842F57E00D2133F /* AWFTestModel.xcdatamodeld in Sources */,
 				982D2A35183F0E2C002C8F9C /* UIViewController+AWFTransparent.m in Sources */,
+				98A611741842EB8600D2133F /* AWFCoreDataStack.m in Sources */,
+				982D2A4C1842982C002C8F9C /* NSManagedObject+AWFRevert.m in Sources */,
 				982D2A481840766E002C8F9C /* AWFMySQLDateFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,6 +461,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		98A611751842F57E00D2133F /* AWFTestModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				98A611761842F57E00D2133F /* AWFTestModel.xcdatamodel */,
+			);
+			currentVersion = 98A611761842F57E00D2133F /* AWFTestModel.xcdatamodel */;
+			path = AWFTestModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 988E3E1A183D4BDA00257846 /* Project object */;
 }
