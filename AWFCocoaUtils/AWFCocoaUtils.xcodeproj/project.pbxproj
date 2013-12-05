@@ -26,6 +26,10 @@
 		98A611781842F57E00D2133F /* AWFTestModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98A611751842F57E00D2133F /* AWFTestModel.xcdatamodeld */; };
 		98A6117A1842F6F000D2133F /* AWFCoreDataStackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A611791842F6F000D2133F /* AWFCoreDataStackTests.m */; };
 		98A611811842F98E00D2133F /* AWFTestUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A611801842F98E00D2133F /* AWFTestUser.m */; };
+		98A611A1184593C300D2133F /* NSDictionary+AWFCascade.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A611A0184593C300D2133F /* NSDictionary+AWFCascade.m */; };
+		98A611A2184593C300D2133F /* NSDictionary+AWFCascade.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A611A0184593C300D2133F /* NSDictionary+AWFCascade.m */; };
+		98A611A41845B2A800D2133F /* AWFDictionaryCascadeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A611A31845B2A800D2133F /* AWFDictionaryCascadeTest.m */; };
+		98F12107184DA14C001DD362 /* AWFDictionaryCascadeTest.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98F12106184DA14C001DD362 /* AWFDictionaryCascadeTest.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +77,10 @@
 		98A611791842F6F000D2133F /* AWFCoreDataStackTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWFCoreDataStackTests.m; sourceTree = "<group>"; };
 		98A6117F1842F98E00D2133F /* AWFTestUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWFTestUser.h; sourceTree = "<group>"; };
 		98A611801842F98E00D2133F /* AWFTestUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWFTestUser.m; sourceTree = "<group>"; };
+		98A6119F184593C300D2133F /* NSDictionary+AWFCascade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+AWFCascade.h"; sourceTree = "<group>"; };
+		98A611A0184593C300D2133F /* NSDictionary+AWFCascade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+AWFCascade.m"; sourceTree = "<group>"; };
+		98A611A31845B2A800D2133F /* AWFDictionaryCascadeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWFDictionaryCascadeTest.m; sourceTree = "<group>"; };
+		98F12106184DA14C001DD362 /* AWFDictionaryCascadeTest.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AWFDictionaryCascadeTest.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,8 @@
 				982D2A4A1842982C002C8F9C /* NSManagedObject+AWFRevert.m */,
 				982D2A32183F0E2C002C8F9C /* UIViewController+AWFTransparent.h */,
 				982D2A33183F0E2C002C8F9C /* UIViewController+AWFTransparent.m */,
+				98A6119F184593C300D2133F /* NSDictionary+AWFCascade.h */,
+				98A611A0184593C300D2133F /* NSDictionary+AWFCascade.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -166,6 +176,8 @@
 			isa = PBXGroup;
 			children = (
 				98A611791842F6F000D2133F /* AWFCoreDataStackTests.m */,
+				98A611A31845B2A800D2133F /* AWFDictionaryCascadeTest.m */,
+				98F12106184DA14C001DD362 /* AWFDictionaryCascadeTest.plist */,
 				988E3E56183D55BA00257846 /* AWFPlistConfigurationTests.m */,
 				988E3E54183D53C300257846 /* AWFCocoaUtilsTests-Info.plist */,
 				98A6117E1842F94900D2133F /* Core Data */,
@@ -253,6 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98F12107184DA14C001DD362 /* AWFDictionaryCascadeTest.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98A611A1184593C300D2133F /* NSDictionary+AWFCascade.m in Sources */,
 				982D2A34183F0E2C002C8F9C /* UIViewController+AWFTransparent.m in Sources */,
 				988E3E50183D523100257846 /* AWFPlistConfiguration.m in Sources */,
 				98A611731842EB8600D2133F /* AWFCoreDataStack.m in Sources */,
@@ -279,11 +293,13 @@
 				98A6117A1842F6F000D2133F /* AWFCoreDataStackTests.m in Sources */,
 				988E3E57183D55BA00257846 /* AWFPlistConfigurationTests.m in Sources */,
 				988E3E51183D523100257846 /* AWFPlistConfiguration.m in Sources */,
+				98A611A2184593C300D2133F /* NSDictionary+AWFCascade.m in Sources */,
 				98A611781842F57E00D2133F /* AWFTestModel.xcdatamodeld in Sources */,
 				982D2A35183F0E2C002C8F9C /* UIViewController+AWFTransparent.m in Sources */,
 				98A611741842EB8600D2133F /* AWFCoreDataStack.m in Sources */,
 				982D2A4C1842982C002C8F9C /* NSManagedObject+AWFRevert.m in Sources */,
 				982D2A481840766E002C8F9C /* AWFMySQLDateFormatter.m in Sources */,
+				98A611A41845B2A800D2133F /* AWFDictionaryCascadeTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

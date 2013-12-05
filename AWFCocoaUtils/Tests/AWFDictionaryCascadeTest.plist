@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>attribute-1</key>
+	<string>testValue-1</string>
+	<key>replacedAttribute-1</key>
+	<string>originalValue-1</string>
+	<key>PositiveOverrideKey-1</key>
+	<dict>
+		<key>attribute-1</key>
+		<string>overriddenValue-1</string>
+		<key>NestedDictionary-1</key>
+		<dict>
+			<key>attribute-1.1</key>
+			<string>overriddenValue-1.1</string>
+		</dict>
+	</dict>
+	<key>NestedDictionary-1</key>
+	<dict>
+		<key>attribute-1.1</key>
+		<string>testValue-1.1</string>
+		<key>replacedAttribute-1</key>
+		<string>replacedValue-1.1</string>
+		<key>NestedDictionary-1.1</key>
+		<dict>
+			<key>attribute-1.1.1</key>
+			<string>testValue-1.1.1</string>
+			<key>replacedAttribute-1</key>
+			<string>replacedValue-1.1.1</string>
+			<key>NestedDictionary-1.1.1</key>
+			<dict>
+				<key>attribute-1.1.1.1</key>
+				<string>testValue-1.1.1.1</string>
+				<key>replacedAttribute-1</key>
+				<string>replacedValue-1.1.1.1</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
